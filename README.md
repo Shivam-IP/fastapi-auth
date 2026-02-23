@@ -1,4 +1,4 @@
-# JWT-authentication App
+# FastAPI-authentication App
 A secure, modern authentication API built with **FastAPI**, **PostgreSQL** (AWS RDS), **JWT**, and best practices.
 
 ## Features
@@ -19,16 +19,18 @@ A secure, modern authentication API built with **FastAPI**, **PostgreSQL** (AWS 
 - **Uvicorn** – ASGI server
 
 ## Project Structure
-fastapi-auth-project/
-├── app/
-│   ├── core/          # config, database, security
-│   ├── api/
-│   │   └── v1/        # API routers (auth)
-│   ├── models/        # SQLAlchemy models
-│   └── schemas/       # Pydantic schemas
-├── .env               # Secrets (gitignore'd)
-├── requirements.txt
-└── README.md
+   ```bash
+   fastapi-auth-project/
+   ├── app/
+   │   ├── core/          # config, database, security
+   │   ├── api/
+   │   │   └── v1/        # API routers (auth)
+   │   ├── models/        # SQLAlchemy models
+   │   └── schemas/       # Pydantic schemas
+   ├── .env               # Secrets (gitignore'd)
+   ├── requirements.txt
+   └── README.md
+   ```
 
 ## Setup & Run Locally
 1. Clone the repo:
